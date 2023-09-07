@@ -1,16 +1,22 @@
+import Header from './1-Header/Header';
+
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        // display: 'flex',
+        // justifyContent: 'center',
+        // alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        marginTop: 20,
+        marginLeft: 20,
+        textTransform: 'uppercase',
       }}
     >
-      React homework template
+      react-module-1 :
+      <Header />
     </div>
   );
 };
