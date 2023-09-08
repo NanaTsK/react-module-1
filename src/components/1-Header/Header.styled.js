@@ -11,9 +11,9 @@ import { styled } from 'styled-components';
 // });
 
 export const TypographyHeader = styled.h1`
-  color: #00fbff;
+  // color: teal;
   margin: 0;
-  //   color: ${({ isOnline }) => (isOnline ? '#00fbff' : 'black')};
+  color: ${({ isOnline }) => (isOnline ? 'teal' : 'black')};
 `;
 // const color = '#000';
 // const TypographyHeader = styled('h1')({

@@ -2,7 +2,7 @@ import { Container } from 'components/index.styled';
 import { TypographyHeader, TypographyText } from './Header.styled';
 
 const Header = () => {
-  const isOnline = false;
+  const isOnline = true;
   return (
     <Container>
       <div>
