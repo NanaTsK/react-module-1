@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Container } from 'components/index.styled';
 
-// const Content = () => {
-//   return (
-//     <Container>
-//       <div className={css.contentStyle}>Content</div>
-//     </Container>
-//   );
-// };
-
 axios.defaults.baseURL = 'https://hn.algolia.com/api/v1';
 
 const ArticleList = ({ articles }) => (
