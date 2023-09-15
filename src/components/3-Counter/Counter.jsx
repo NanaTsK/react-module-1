@@ -1,43 +1,44 @@
-import React, { Component } from 'react';
-// import axios from 'axios';
+// import React, { Component } from 'react';
 import { Container } from 'components/index.styled';
 
-// const ArticleList = ({ articles }) => (
-//   <ul>
-//     {articles.map(({ objectID, url, title }) => (
-//       <li key={objectID}>
-//         <a href={url} target="_blank" rel="noreferrer noopener">
-//           {title}
-//         </a>
-//       </li>
-//     ))}
-//   </ul>
-// );
+// class Counter extends Component {
+//   render() {
+//     return (
+//       <Container>
+//         <div>
+//           <span>Counter</span>
+//         </div>
+//       </Container>
+//     );
+//   }
+// }
 
-class Counter extends Component {
-  //   state = {
-  //     articles: [],
-  //   };
-
-  //   async componentDidMount() {
-  //     try {
-  //       const response = await axios.get('/search?query=react');
-  //       this.setState({ articles: response.data.hits });
-  //     } catch (error) {
-  //       console.error('Error fetching data:', error);
-  //     }
-  //   }
-
-  render() {
-    // const { articles } = this.state;
-    return (
-      <Container>
-        <div>
-          <span>Counter</span>
+const Counter = () => {
+  return (
+    <Container>
+      <div>
+        <div className="card bg-dark text-white " style={{ width: '300px' }}>
+          <div className="card-body">
+            <h5 className="card-title text-center fs-1">Counter</h5>
+            <p className="card-text  text-center" style={{ fontSize: '80px' }}>
+              0
+            </p>
+            <div className="d-flex justify-content-center px-5">
+              <button
+                // onClick={handleClick}
+                className="btn btn-outline-success me-5"
+              >
+                <i className="bi bi-plus-circle fs-1"></i>
+              </button>
+              <button className="btn  btn-outline-danger ms-5">
+                <i className="bi bi-dash-circle fs-1"></i>
+              </button>
+            </div>
+          </div>
         </div>
-      </Container>
-    );
-  }
-}
+      </div>
+    </Container>
+  );
+};
 
 export default Counter;
