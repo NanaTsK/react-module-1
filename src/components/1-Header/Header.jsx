@@ -16,5 +16,3 @@ const Header = ({ toggleModal }) => {
 };
 
 export default Header;
-
-/* <button onClick={toggleModal} className="btn btn-outline-success"> */
