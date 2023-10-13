@@ -1,8 +1,8 @@
 {
-  "name": "react-module-1",
+  "name": "react-module-1-4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NanaTsK.github.io/react-module-1/",
+  "homepage": "https://NanaTsK.github.io/react-module-1-4/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
